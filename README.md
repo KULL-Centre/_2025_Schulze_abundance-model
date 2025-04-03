@@ -6,8 +6,8 @@ Thea K. Schulze, Lasse M. Blaabjerg, Matteo Cagiada, Kresten Lindorff-Larsen (20
 
 -----
 
-We provide example scripts and data to train and validate a supervised model against VAMP-seq abundance scores:
+We provide example scripts and data to train and validate supervised models against VAMP-seq abundance scores:
 
-`/output/models.zip` contains selected, trained models.
-`/output/feature_set_1` contains examples of scripts to run training and validation pipeline for different versions of our model architecture. 
-All training data and model input features can be found in `/data/df_vamp.csv`.
+- `/output/models.zip`: A selection of pretrained models corresponding to those reported in the preprint. 
+- `/output/feature_set_1`: Examples of scripts to run training and validation pipeline for different versions of our model architecture. 
+- `/data/df_vamp.csv`: All training data (VAMP-seq scores for six different proteins) and model input features (structure-based features, including ESM-IF scores).
